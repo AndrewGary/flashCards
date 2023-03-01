@@ -1,16 +1,17 @@
 import React, {useState} from 'react'
+
 const labels = ['DSA', 'General Question', 'Performace Question', 'Testing Question', 'Version Control', 'Command Line Question', 'HTML', 'CSS', 'React']
 const colors = ['bg-green-400', 'bg-red-400', 'bg-indigo-400', 'bg-blue-400', 'bg-orange-400', 'bg-yellow-400', 'bg-purple-400', 'bg-cyan-400', 'bg-amber-400']
 
 type Props = {}
+type Card = {frontText: string, backText: string, labels: Array<string>}
 
 const AddNewCard = (props: Props) => {
 
     
-    const [newCard, setNewCard] = useState({frontText: '', backText: '', labels: []})
-    const [selectedLabels, setSelectedLabels] = useState([])
+    const [newCard, setNewCard] = useState<Card>({frontText: '', backText: '', labels: []})
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.SyntheticEvent) => {
         e.preventDefault();
 
         const reqOptions = {
@@ -33,7 +34,7 @@ const AddNewCard = (props: Props) => {
         console.log('idk: ', idk);
     }
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         setNewCard({
             ...newCard,
             [e.target.name]: e.target.value

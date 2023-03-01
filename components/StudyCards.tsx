@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import {motion} from 'framer-motion';
 
+type Card = {frontText: string, backText: string, labels: Array<string>}
+type Props = {allCards: Array<Card>}
 
-type Props = {}
-
-const StudyCards = ({allCards}) => {
+const StudyCards = ({allCards}: Props) => {
 
   const [frontOrBack, setFrontOrBack] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);

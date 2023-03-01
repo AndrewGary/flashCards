@@ -1,0 +1,280 @@
+notecard entries
+
+NEED TO DO:
+**********create notecards for dialing in jest expect()./methods/**********
+**********visit https://www.coursera.org/learn/html-and-css-in-depth/supplement/ZIzeF/semantic-html-cheat-sheet and create notecards for the sematic tags**********
+**********visit https://www.coursera.org/learn/html-and-css-in-depth/supplement/8QDS1/metadata-cheat-sheet and create notecards for the meta tags**********
+
+markdown key: 
+**DSA** === 'Data Structures and Algorithms"
+*** code goes here *** - wrap any code with *** code ***
+**GQ** === 'General Question' - general computer/coding question
+**PQ** === 'Performace Question' - perform an action... usually has a video answer showing how to do it.
+**NTD** === 'Need To Do' - something i need to come back and address or do.
+**TESTING** === 'A question about testing software'
+**VC** === 'Version Control Question'
+**CLQ** === 'Command Line Question'
+
+FRONT: "Describe what the Object.keys() method does."
+BACK:
+
+FRONT: Describe what the Object.values() method does.
+BACK: 
+
+FRONT: Describe what the Object.entries() method does.
+BACK:  Returns an array listing both the keys and the values
+***const car4 = {
+    speed: 400,
+    color: 'magenta'
+}
+console.log(Object.entries(car4));
+//This will print "[['speed', 400], ['color', 'magenta']]" to the console.***
+
+FRONT: What is the difference between "for-in" and "for-of" loops?
+BACK: 
+
+FRONT: **DSA** Please explain what a Object is?
+BACK:  
+
+FRONT: **DSA** Please explain what a Array is?
+BACK: 
+
+FRONT: **DSA** Please explain what a Map is?
+BACK: 
+
+FRONT: **DSA** Please explain what a Set is?
+BACK: 
+
+FRONT: Explain what the .forEach() method does
+BACK: 
+
+FRONT: Explain what the .filter() method does
+BACK: 
+
+FRONT: Explain what the .map() method does
+BACK: 
+
+FRONT: Please Explain the Spread Operator?
+BACK: 
+
+FRONT: Please explain the Rest Operator?
+BACK: 
+
+FRONT: Describe modules in javascript.
+BACK: 
+
+FRONT: Please Explain the DOM and what it stands for.
+BACK: 
+
+FRONT: **GQ** What is Eample.com
+BACK: 
+
+FRONT: **PQ** Can you show me how to manipulate the dom via the developer tools console?
+BACK:  **NTD** Create Vide for 
+
+FRONT: what does document.body.appendChild(element) do?
+BACK: 
+
+FRONT: Which came first, Functional Programming or Object Oriented Programming?
+BACK: Functional Programming
+
+FRONT: Explain in general terms what a 'Class' is in programming?
+BACK: 
+
+FRONT: Please list 4 different dom selection methods and how they differ from one another?
+BACK: 
+
+FRONT: **TESTING** What is testing in terms of software? What are some different types of testing?
+BACK: The three most used types of testing are: Unit Testing, Integration Testing, and End-to-End Testing
+
+FRONT: **TESTING** What are some popular javascript testing libraries?
+BACK: 
+
+FRONT: **GQ** Please explain what refactoring is.
+BACK: Updating code, without affecting the results it produces. The program still works the same but 
+you are changing or 'refactoring' the code to be more efficient.
+
+FRONT: **TESTING** Please explain what the 'Test Driven Development' or 'TDD' is.
+BACK: The practice of writing javascript tests before starting development. Tests are project performace expectations
+and are run periodicly throughout the development process to make sure that development is moving in the correct direction.
+
+FRONT: **TESTING** What are some common E2E (End to End) testing libraries?
+BACK: WebdriverJS, Protractor, Cypress
+
+FRONT: **TESTING** What are some common Integration Testing libraries?
+BACK: React Testing Library, Enzyme
+
+FRONT: **TESTING** What is End-To-End Testing?
+BACK: 
+
+FRONT: **TESTING** What is Integration testing?
+BACK: 
+
+FRONT: **TESTING** List from 1 to 3 which type of testing tatks the most type and effort? 1 being the least amoutn of effort.
+BACK: Unit Testing, Integration Testing, End-To-End (E2E) Testing
+
+FRONT: **TESTING** What is Jest?
+BACK: Jest is a JavaScript testing framework often used for testing code like React.
+
+FRONT: **TESTING** What are some examples of testing libraries for JavaScript?
+BACK: Some examples of testing libraries for JavaScript are Jasmine, Mocha, Karma, and qUnit.
+
+FRONT: **TESTING** What is code coverage in Jest?
+BACK: Code coverage in Jest is a measure of what percentage of code is covered by tests.
+
+FRONT: **TESTING** What is mocking in Jest?
+BACK: Mocking in Jest allows separating the code being tested from its related dependencies by using Jest mock functions.
+
+FRONT: **TESTING** What is snapshot testing in Jest?
+BACK: Snapshot testing in Jest is used to verify that there are no regressions in the DOM of an app after changes to the codebase.
+
+FRONT: **TESTING**  Please explain how to write a unit test using Jest?
+BACK: 
+
+FRONT: **GQ**What is the difference between a "devDependency" and a "dependency"?
+BACK: devDependencys are packages only used during "development" by the developer.
+      dependencys are packages that are required for your side to function properly.
+	Example: Jest and similar testing packages are only used by the developer during development and testing.
+	SocialIcon is a package that provides components for you to use in your site, therefore it is a regular dependecy
+
+FRONT: **VC** What is version control?
+BACK: 
+
+FRONT: **VC** What are the two different types of version control?
+BACK: CVCS (Centralized) and DVCS (Distributed)
+
+FRONT: **VC** Please Explain how CVCS works.
+BACK: 
+
+FRONT: **VC** Please Explain how DVCS works.
+BACK: 
+
+FRONT: **VC** **ACRO** What does CI/CD stand for?
+BACK: Continuous Integration/Continuious Delivery/Deployment.
+
+FRONT: **VC** Please explain how CI/CD works and how it is used in modern software development?
+BACK: 
+
+FRONT: **VC** The CD in CI/CD has two parts to it, what are they?
+BACK: 
+
+FRONT: **VC** Please explain what Staging is in the Software Development Lifecycle?
+BACK: 
+
+FRONT: **VC** **GQ** What are migrations?
+BACK: 
+
+FRONT: **VC** What are the benifits of using DVCS over CVCS or vice versa?
+BACK: 
+
+FRONT: **GQ** **ACRO** What does GUI stand for?
+BACK: 
+
+FRONT: **CLQ** What is the command line, and what is it used for?
+BACK: 
+
+FRONT: **CLQ** Command Line - GUI, which one of these tools can be used without the other? 
+BACK: The command line is what is used to control what your computer does, therefor it is the master.
+The GUI allows for a user to make command line calls 
+
+FRONT: **CLQ** What are Unix commands?
+BACK: 
+
+FRONT: **CLQ** What came first Unix or Linux
+BACK: 
+
+FRONT: **CLQ** What is a flag in a unix command?
+BACK: Flags can be added to Unix commands to specifiy/change the behaviour of the Unix command.
+
+FRONT: **CLQ** What is Bash?
+BACK: 
+
+FRONT: **CLQ** What does 'total x' stand for when using the ls -l command?
+BACK: The total number of disk blocks taken by the directory you ran the ls -l command in.
+
+FRONT: **CLQ** What command do you use to check to contents of a file?
+BACK: you would use the 'cat fileName.txt' command.
+
+FRONT: **CLQ** What are pipes, and how do they work?
+BACK: Pipes are a way of using the output from one command as the input to another command. This is done by uisng the '|' opperator.
+EX: 'cat file1.txt file2.txt | wc -w' === this will return the combined word cout of the two files provided.
+
+FRONT:**CLQ** What are the 3 types of redirection?
+BACK: Standard Input - 0, Standard Output - 1, Standard Error - 2
+
+FRONT: **CLQ** **ACRO** What does Grep stand for?
+BACK: Global Regular Expression Print
+
+FRONT: **CLQ** What is Grep used for?
+BACK: Grep is used to filter results using flags and text input
+
+FRONT: **VC** Please explain the difference between Git and GitHub?
+BACK: Git is a version control system for tracking changes to projects. Github is a cloud based service that allows users to manage git repositories using a GUI
+
+FRONT: **GC** **TRIVIA** **VC** When was Git created and who created it?
+BACK: Git was created on April 7th, 2005 by Linus Torvalds.
+
+FRONT: **VC** What is Access Control?
+BACK: 
+
+FRONT: **VC** What are Pull Requests?
+BACK: 
+
+FRONT: **VC** What are Branches and how are they used?
+BACK: 
+
+FRONT: **VC** How do you create a new branch?
+BACK: git branch -b branch-name-goes-here
+
+FRONT: **VC** How do you switch to a different branch that already exists?
+BACK: git branch branch-you-want-to-checkout-goes-here
+
+FRONT: **VC** **GQ** What is a workflow and why are they important? Give an example for context.
+BACK: 
+
+FRONT: **VC** What is the HEAD in reference to Git?
+BACK: 
+
+FRONT: **VC** What is the command used to determine where the HEAD pointer is pointing?
+BACK: "cat .git/HEAD" will tell you where the HEAD pointer is pointing.
+
+FRONT: **VC** What goes the git diff command do, and how would you use it? 
+BACK: 
+
+FRONT: **VC** What does the git log command do?
+BACK: 
+
+FRONT: **VC** What does the --pretty=oneline flag do?
+BACK: This makes sure the results printed to the console are only on one line.
+
+FRONT: **VC** What is the "git blame" command and what does it do?
+BACK: 
+
+FRONT: **VC** What does the -L flag do when using git blame?
+BACK: 
+
+FRONT: **HTML** What are semantic tags and why do we need them?
+BACK: Semantic Tags describe the meaning of a web page and they help search engines and accessibility software to understand th contents of the page.
+
+FRONT: **HTML** How id metadata represented in a HTML document?
+BACK: 
+
+FRONT: **HTML** What are some different types of metadata?
+BACK: 
+
+FRONT: **HTML** What is the Open Graph Protocol? Who created it and why?
+BACK: 
+
+FRONT: 
+BACK: 
+
+FRONT: 
+BACK: 
+
+
+
+
+
+
+
+
